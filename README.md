@@ -13,26 +13,45 @@ limited, so in each year you can spend cmachine to either buy a machine or buy a
 must buy a machine. Any other machine purchases must be made one after another (advertising can only begin
 after machine buying is done). Demand for your phones starts at d1. Each time you advertise, demand increases
 by gd%. The prevailing market interest rate is r.
+
 Notes
+
 • You may limit your model to 20 years and a maximum of 5 machines if it is helpful.
+
 • For simplicity, assume that cmachine is paid in every year, even after all machines have shut down.
+
 • Ensure that you can change the inputs and the outputs change as expected.
+
 • For simplicity, assume that fractional phones can be sold, you do not need to round the quantity transacted.
 The Model
+
 Inputs
+
 • noutput: Number of phones per machine per year
+
 • nmachines: Number of machines purchased
+
 • nlife: Number of years for which the machine produces phones
+
 • pphone: Price per phone
+
 • pscrap: Scrap value of machine
+
 • cmachine: Price per machine or advertising year
+
 • cphone: Variable cost per phone
+
 • d1: Quantity of phones demanded in the first year
+
 • gd: Percentage growth in demand for each advertisement
+
 • r: Interest rate earned on investments
-1
+
+
 Outputs
+
 • Cash flows in each year, up to 20 years
+
 • PV of cash flows, years 1 - 20
 
 Features
